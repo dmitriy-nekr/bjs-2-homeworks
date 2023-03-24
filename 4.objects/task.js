@@ -4,7 +4,6 @@ function Student(name, gender, age) {
     this.gender = gender;
     this.age = age;
     this.marks =[];
-  
 }
 
 Student.prototype.setSubject = function (subjectName) {
@@ -21,8 +20,7 @@ Student.prototype.addMarks = function (...marks) {
             }
     }else {
         return undefined;
-        }
-                
+        }           
 }
 
 Student.prototype.getAverage = function () {
