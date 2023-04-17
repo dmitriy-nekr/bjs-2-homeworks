@@ -54,5 +54,6 @@ class AlarmClock{
         clearAlarms(){
             this.stop();
             this.alarmCollection = [];
+ 
         }
 }
