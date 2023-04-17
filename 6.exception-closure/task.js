@@ -28,12 +28,10 @@ class Triangle{
             throw new Error ("Треугольник с такими сторонами не существует");
         }   
     }
-    
     get perimeter(){
         let p = this.a + this.b + this.c;
         return p;  
     }
- 
      get area(){
         let polPeriMeter = this.perimeter/2;
         let s = Number(Math.pow((polPeriMeter * (polPeriMeter - this.a) * (polPeriMeter - this.b) * (polPeriMeter - this.c)), 0.5).toFixed(3));
